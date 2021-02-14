@@ -16,7 +16,8 @@ cat.setRotationStyle('left-right');
 cat.pointInDirection(-90);
 
 cat.whenFlag(function () {
-    this.say("Hi");
+    this.changeX(300);
+    this.say("Catch me if you can!");
 })
 cat.whenClicked(function() {
     this.say("Ouch, you stepped on me!!!")

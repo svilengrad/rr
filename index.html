@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>First block lik e</title>
+<title>Cat vs Dog</title>
+<!-- TODO: add favicon -->
 </head>
 <body>
 
 <script src="https://cdn.jsdelivr.net/npm/blocklike@1.0.0/dist/blocklike-1.0.0.min.js"></script>
 <script>
     let stage = new blockLike.Stage();
+
+    //helpers
+    function abs(num) {
+        if(num<0){
+            return num*-1;
+        }
+        return num;
+    }
 </script>
 <script src="sprites/sheep.js"></script>
 <script src="sprites/cat.js"></script>
+<script src="sprites/dog.js"></script>
 </body>
 </html>

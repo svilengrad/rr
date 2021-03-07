@@ -17,7 +17,7 @@ cat.pointInDirection(-90);
 
 cat.whenFlag(function () {
     this.changeX(300);
-    this.say("Catch me if you can!");
+    this.say("Catch me if you can, doggy!");
 })
 cat.whenClicked(function() {
     this.say("Ouch, you stepped on me!!!")
